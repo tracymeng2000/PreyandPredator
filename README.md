@@ -5,5 +5,5 @@ A world of 10 x 10 cells occupied by prey and predators. This stimulates the pre
 ## Compilation 
 Required: C++ 11 <br />
 Compile and run from command line <br />
-<code>g++ -std=c++11 PreyandPredator.cpp -o PreyandPredator \n
+<code>g++ -std=c++11 PreyandPredator.cpp -o PreyandPredator   
 ./PreyandPredator</code>
