@@ -108,6 +108,7 @@ bool prey::breed(vector<vector<creature*>>& field, int time_step){
 	}
 }
 
+//returns the genration of the prey at time "time_step"
 char prey::get_gen(int time_step) const{
 	return static_cast<char>(static_cast<int>('a') + (time_step / PREY_BREED_PERIOD) % 25);
 }
